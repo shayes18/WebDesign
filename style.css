@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Coiny');
+main{
+  background-color: #0FAEBA;
+}
+#logo{
+  background-color: white;
+  position: relative;
+  left: 20px;
+  width: 115px;
+  border: 5px solid #BDE8EC;
+  
+}
+nav a:hover{
+  background-color: #E0C618;
+}
+nav a:active{
+  color: #BDE8EC;
+  background-color: #E0C618;
+}
+nav a:visited{
+  color: #BDE8EC;
+}
+nav{
+  background-color: #9A7D5C;
+  color: white;
+  line-height: 3em;
+  margin-top: -85px;
+}
+nav a{
+  color: white;
+  font-size: 1.2em;
+  text-decoration: none;
+  padding: 1em .6em;
+}
+nav ul{
+  display:flex;
+  list-style-type: none;
+  margin: 0;
+  padding-left: 140px;
+}
+li{
+  padding: 5px;
+}
+#fullwidth{
+  width: 100%;
+}
+#top-row, #middle-row{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+#middle-row{
+  border: 3px solid #BDE8EC;
+  margin: 5px;
+}
+.leftCol, .rightCol{
+  flex: 1;
+  flex: 1 0 15em;
+  margin: .5em;
+  width: 48%;
+}
+#beforeFooter{
+  text-align: center;
+  /*height: 250px;*/
+  padding: 75px;
+}
+img {
+    max-width: 100%;
+} 
+h1,h2,h3,h4,h5,h6 {
+        color: #E0C618;
+    margin-bottom: 5px;
+  letter-spacing: .1em;
+} 
+.light-blue{
+  color: #BDE8EC;
+}
+#content{
+  width: 960px;
+  margin: 0 auto;
+  font-family: 'Coiny', cursive;
+}
+div p{
+  margin-top: 5px;
+  line-height: 120%;
+  letter-spacing: .15em;
+}
+footer{
+  background-color: #9A7D5C;
+  display: flex;
+  flex-flow: row wrap;
+  height: 55px;
+}
+footer p{
+  flex: 2;
+  line-height: 55px;
+  padding-left: 5px;
+}
+.footerImg{
+  flex: 1;
+  height: 55px;
+}
